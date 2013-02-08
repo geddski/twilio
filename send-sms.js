@@ -7,7 +7,7 @@ var myPhoneNum = '+18016236842'; //Gabe's
 client.sendSms({
     to: myPhoneNum, // Any number Twilio can deliver to
     from: myTwilioNum, // A number you bought from Twilio and can use for outbound communication
-    body: 'twilio rocks' // body of the SMS message   
+    body: 'twiliorocks' // body of the SMS message   
   }, 
   function(err, responseData) { //this function is executed when a response is received from Twilio
     if (!err) { // "err" is an error received during the request, if any
